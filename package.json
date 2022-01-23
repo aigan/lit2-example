@@ -1,0 +1,19 @@
+{
+  "name": "lit2-example",
+  "version": "0.0.1",
+  "description": "Minimal Lit project with NO build step",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^2.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "rollup": "^2.66.0"
+  }
+}
